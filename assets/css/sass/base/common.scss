@@ -32,6 +32,41 @@
 		}
 	}
 }
-&.table-horizontal{
+/*
+* 구조 : paging
+*/
+[data-paging="paging"]{
+	text-align: center;
+	.pg_page,.pg_current{
+		border: 1px solid #bbbcc3;
+		border-radius:5px;
+		&:hover,&:active{
+			background:#3c8dbc;
+			color:#fff;
+		}
+	}
+	.pg_current{
+		display: inline-block;		
+		min-width: 30px;
+		height: 30px;
+		padding: 0 5px;
+		background:#3c8dbc;		
+		line-height: 26px;
+		color:#fff;
+	}
+	.pg_page{
+		display: inline-block;
+		min-width: 30px;
+		height: 30px;
+		padding: 0 5px;
+		background:#f3f3f3;
+		line-height: 27px;
 		
+		color:#555;
+	}
+	.pg_start,.pg_prev,.pg_next,.pg_end{
+		background:#fff;
+		line-height: 27px;
+	}
+
 }

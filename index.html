@@ -11,6 +11,7 @@
   <!-- 스타일 : 초기화 페이지 공통 -->
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/helper.css">
   <!-- 기본 스크립트 -->
   <script src="assets/js/jquery-1.12.4.min.js"></script>
   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
@@ -229,9 +230,16 @@
 					</div>
 				</div>
 
-				<div id="paging">
-					<strong class=""><span class="blind">현재페이지</span>1</strong>
-
+				<div id="paging" data-paging="paging" class="margin-top-30">
+					<a href="#" class="pg_page pg_start fa"><i class="fa fas fa-angle-double-left"></i><span class="blind">맨처음</span></a>
+					<a href="#" class="pg_page pg_prev fa margin-right-10"><i class="fa fa-angle-left"></i><span class="blind">이전</span></a>
+					<strong class="pg_current"><span class="blind">현재페이지</span>1</strong>
+					<a href="#" class="pg_page">2<span class="blind">페이지</span></a>
+					<a href="#" class="pg_page">3<span class="blind">페이지</span></a>
+					<a href="#" class="pg_page">4<span class="blind">페이지</span></a>
+					<a href="#" class="pg_page">5<span class="blind">페이지</span></a>
+					<a href="#" class="pg_page pg_next fa margin-left-10"><i class="fa fa-angle-right"></i><span class="blind">다음</span></a>
+					<a href="#" class="pg_page pg_end fa"><i class="fa fas fa-angle-double-right"></i><span class="blind">맨끝</span></a>
 				</div>
 			</div>
 			<!-- .container -->
