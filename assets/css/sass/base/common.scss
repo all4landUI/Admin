@@ -53,6 +53,7 @@
 		background:#3c8dbc;		
 		line-height: 26px;
 		color:#fff;
+		border: 1px solid #3c8dbc;
 	}
 	.pg_page{
 		display: inline-block;
@@ -67,6 +68,26 @@
 	.pg_start,.pg_prev,.pg_next,.pg_end{
 		background:#fff;
 		line-height: 27px;
+	}
+	.pg_start{
+		&:before{
+			content:"\f100";
+		}
+	}
+	.pg_prev{
+		&:before{
+			content:"\f104";
+		};
+	}
+	.pg_next{
+		&:before{
+			content:"\f105";
+		};
+	}
+	.pg_end{
+		&:before{
+			content:"\f101";
+		};
 	}
 
 }
