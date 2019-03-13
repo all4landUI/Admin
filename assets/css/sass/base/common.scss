@@ -7,8 +7,41 @@
 ** 
 **
 **/
+
+/**
+ ** 구성 : 소스 복사
+ */
+.doc{
+	#button__source--view{
+	}
+	&+[data-content="code"]{
+		max-height:0;
+		overflow:hidden;	
+	}
+	&.active{
+		&+[data-content="code"]{
+			max-height:100%;
+		}
+	}
+}
+
+[data-content="code"]{
+	#button__source--copy{
+		float:right;
+		display:block;
+		color:#fff;
+		background-color:#3c8dbc;
+		padding:5px 12px;
+		border-radius:5px 5px 0 0;
+
+	}
+	pre{
+		clear:right;
+	}
+}
+
 // 기본형
-.table{
+[data-style="table"]{
 	width:100%;
 	border-top:2px solid #ddd;
 	table{

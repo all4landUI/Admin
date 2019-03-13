@@ -15,10 +15,17 @@
   <!-- 기본 스크립트 -->
   <script src="assets/js/jquery-1.12.4.min.js"></script>
   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-  <!-- 컴포넌트 : 팝업 플러그인 -->
+
   <script src="assets/components/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
   <script src="assets/components/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
   <script src="assets/components/OwlCarousel2/dist/owl.carousel.min.js"></script>
+  <script src="assets/components/clipboard/dist/clipboard.min.js"></script>
+  <!-- 코드 highlight -->
+  <link rel="stylesheet" href="assets/components/prism/prism.css">
+  <script src="assets/components/prism/prism.js"></script>
+  <!-- 컴포넌트 : common.js -->
+  <script src="assets/js/common.js"></script>
+
   <!--[if lt IE 9]>
   	<script src="assets/html5shiv.min.js"></script>
   <![endif]-->
@@ -114,120 +121,133 @@
 			<h2 class="blind">본문내용시작</h2>
 			<div class="container">
 				<div class="doc">
-					 data-copy="html 안의 소스만 활용
+					<button role="button" id="button__source--view">소스보기</button>
 				</div>
-				<div data-copy="html">
-					<div class="table table-horizontal">
+<div data-content="code">
+<button role="button" id="button__source--copy" data-clipboard="table">소스복사</button>
+<pre><code class="language-html"><p>&lt;div id="paging" data-paging="paging" class="margin-top-30"&gt;</p>
+	<p>&lt;a href="#" class="pg_page pg_start fa"&gt;&lt;i class="fa fas fa-angle-double-left"&gt;&lt;/i&gt;&lt;span class="blind"&gt;맨처음&lt;/span&gt;&lt;/a&gt;</p>
+	<p>&lt;a href="#" class="pg_page pg_prev fa margin-right-10"&gt;&lt;i class="fa fa-angle-left"&gt;&lt;/i&gt;&lt;span class="blind"&gt;이전&lt;/span&gt;&lt;/a&gt;</p>
+	<p>&lt;strong class="pg_current"&gt;&lt;span class="blind"&gt;현재페이지&lt;/span&gt;1&lt;/strong&gt;</p>
+	<p>&lt;a href="#" class="pg_page"&gt;2&lt;span class="blind"&gt;페이지&lt;/span&gt;&lt;/a&gt;</p>
+	<p>&lt;a href="#" class="pg_page"&gt;3&lt;span class="blind"&gt;페이지&lt;/span&gt;&lt;/a&gt;</p>
+	<p>&lt;a href="#" class="pg_page"&gt;4&lt;span class="blind"&gt;페이지&lt;/span&gt;&lt;/a&gt;</p>
+	<p>&lt;a href="#" class="pg_page"&gt;5&lt;span class="blind"&gt;페이지&lt;/span&gt;&lt;/a&gt;</p>
+	<p>&lt;a href="#" class="pg_page pg_next fa margin-left-10"&gt;&lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;&lt;span class="blind"&gt;다음&lt;/span&gt;&lt;/a&gt;</p>
+	<p>&lt;a href="#" class="pg_page pg_end fa"&gt;&lt;i class="fa fas fa-angle-double-right"&gt;&lt;/i&gt;&lt;span class="blind"&gt;맨끝&lt;/span&gt;&lt;/a&gt;</p>
+<p>&lt;/div&gt;</p>
+</code></pre>				
+</div>    
+				<div data-copy="table">
+					<div data-style="table" data-table="table-horizontal">
 						<table>
 							<caption class="blind">테이블설명</caption>
 							<thead>
-		                        <tr>
-		                            <th scope="col">번호</th>
-		                            <th scope="col">서비스 구분</th>
-		                            <th scope="col">제목</th>
-		                            <th scope="col">담당부서</th>
-		                            <th scope="col">등록일</th>
-		                            <th scope="col">첨부파일</th>
-		                            <th scope="col">조회수</th>
-		                        </tr>
-		                    </thead>
-		                    <tbody>
-		                        <tr>
-		                            <td><span class="txt-gray">10</span></td>
-		                            <td>GNSS서비스</td>
-		                            <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-		                            <td>국토측량과</td>
-		                            <td><span class="txt-gray">2015.07.30</span></td>
-		                            <td><span class="has-file">첨부파일 있음</span></td>
-		                            <td><span class="txt-gray">10</span></td>
-		                        </tr>
-		                        <tr>
-		                            <td><span class="txt-gray">9</span></td>
-		                            <td>국토정보플랫폼</td>
-		                            <td class="subject"><a href="PB_SC_282.html">웨서비스 개선(공모) 결과</a></td>
-		                            <td>국토측량과</td>
-		                            <td><span class="txt-gray">2015.07.30</span></td>
-		                            <td><span class="has-file">첨부파일 있음</span></td>
-		                            <td><span class="txt-gray">10</span></td>
-		                        </tr>
-		                        <tr>
-		                            <td><span class="txt-gray">8</span></td>
-		                            <td>극지공간정보</td>
-		                            <td class="subject"><a href="PB_SC_282.html">시스템 점검 및 모니터링 안내</a></td>
-		                            <td>공간영상과<br>국토측량과</td>
-		                            <td><span class="txt-gray">2015.07.30</span></td>
-		                            <td></td>
-		                            <td><span class="txt-gray">10</span></td>
-		                        </tr>
-		                        <tr>
-		                            <td><span class="txt-gray">7</span></td>
-		                            <td>GNSS서비스</td>
-		                            <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-		                            <td>국토측량과</td>
-		                            <td><span class="txt-gray">2015.07.30</span></td>
-		                            <td></td>
-		                            <td><span class="txt-gray">10</span></td>
-		                        </tr>
-		                        <tr>
-		                            <td><span class="txt-gray">6</span></td>
-		                            <td>GNSS서비스</td>
-		                            <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-		                            <td>국토측량과</td>
-		                            <td><span class="txt-gray">2015.07.30</span></td>
-		                            <td><span class="has-file">첨부파일 있음</span></td>
-		                            <td><span class="txt-gray">10</span></td>
-		                        </tr>
-		                        <tr>
-		                            <td><span class="txt-gray">5</span></td>
-		                            <td>GNSS서비스</td>
-		                            <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-		                            <td>국토측량과</td>
-		                            <td><span class="txt-gray">2015.07.30</span></td>
-		                            <td><span class="has-file">첨부파일 있음</span></td>
-		                            <td><span class="txt-gray">10</span></td>
-		                        </tr>
-		                        <tr>
-		                            <td><span class="txt-gray">4</span></td>
-		                            <td>GNSS서비스</td>
-		                            <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-		                            <td>국토측량과</td>
-		                            <td><span class="txt-gray">2015.07.30</span></td>
-		                            <td><span class="has-file">첨부파일 있음</span></td>
-		                            <td><span class="txt-gray">10</span></td>
-		                        </tr>
-		                        <tr>
-		                            <td><span class="txt-gary">3</span></td>
-		                            <td>GNSS서비스</td>
-		                            <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-		                            <td>국토측량과</td>
-		                            <td><span class="txt-gray">2015.07.30</span></td>
-		                            <td><span class="has-file">첨부파일 있음</span></td>
-		                            <td><span class="txt-gray">10</span></td>
-		                        </tr>
-		                        <tr>
-		                            <td><span class="txt-gray"></span>2</td>
-		                            <td>GNSS서비스</td>
-		                            <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-		                            <td>국토측량과</td>
-		                            <td><span class="txt-gray">2015.07.30</span></td>
-		                            <td><span class="has-file">첨부파일 있음</span></td>
-		                            <td><span class="txt-gray">10</span></td>
-		                        </tr>
-		                        <tr>
-		                            <td><span class="txt-gray">1</span></td>
-		                            <td>GNSS서비스</td>
-		                            <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-		                            <td>국토측량과</td>
-		                            <td><span class="txt-gray">2015.07.30</span></td>
-		                            <td><span class="has-file">첨부파일 있음</span></td>
-		                            <td><span class="txt-gray">10</span></td>
-		                        </tr>
-		                    </tbody>
+				                <tr>
+				                    <th scope="col">번호</th>
+				                    <th scope="col">서비스 구분</th>
+				                    <th scope="col">제목</th>
+				                    <th scope="col">담당부서</th>
+				                    <th scope="col">등록일</th>
+				                    <th scope="col">첨부파일</th>
+				                    <th scope="col">조회수</th>
+				                </tr>
+				            </thead>
+				            <tbody>
+				                <tr>
+				                    <td><span class="txt-gray">10</span></td>
+				                    <td>GNSS서비스</td>
+				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
+				                    <td>국토측량과</td>
+				                    <td><span class="txt-gray">2015.07.30</span></td>
+				                    <td><span class="has-file">첨부파일 있음</span></td>
+				                    <td><span class="txt-gray">10</span></td>
+				                </tr>
+				                <tr>
+				                    <td><span class="txt-gray">9</span></td>
+				                    <td>국토정보플랫폼</td>
+				                    <td class="subject"><a href="PB_SC_282.html">웨서비스 개선(공모) 결과</a></td>
+				                    <td>국토측량과</td>
+				                    <td><span class="txt-gray">2015.07.30</span></td>
+				                    <td><span class="has-file">첨부파일 있음</span></td>
+				                    <td><span class="txt-gray">10</span></td>
+				                </tr>
+				                <tr>
+				                    <td><span class="txt-gray">8</span></td>
+				                    <td>극지공간정보</td>
+				                    <td class="subject"><a href="PB_SC_282.html">시스템 점검 및 모니터링 안내</a></td>
+				                    <td>공간영상과<br>국토측량과</td>
+				                    <td><span class="txt-gray">2015.07.30</span></td>
+				                    <td></td>
+				                    <td><span class="txt-gray">10</span></td>
+				                </tr>
+				                <tr>
+				                    <td><span class="txt-gray">7</span></td>
+				                    <td>GNSS서비스</td>
+				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
+				                    <td>국토측량과</td>
+				                    <td><span class="txt-gray">2015.07.30</span></td>
+				                    <td></td>
+				                    <td><span class="txt-gray">10</span></td>
+				                </tr>
+				                <tr>
+				                    <td><span class="txt-gray">6</span></td>
+				                    <td>GNSS서비스</td>
+				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
+				                    <td>국토측량과</td>
+				                    <td><span class="txt-gray">2015.07.30</span></td>
+				                    <td><span class="has-file">첨부파일 있음</span></td>
+				                    <td><span class="txt-gray">10</span></td>
+				                </tr>
+				                <tr>
+				                    <td><span class="txt-gray">5</span></td>
+				                    <td>GNSS서비스</td>
+				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
+				                    <td>국토측량과</td>
+				                    <td><span class="txt-gray">2015.07.30</span></td>
+				                    <td><span class="has-file">첨부파일 있음</span></td>
+				                    <td><span class="txt-gray">10</span></td>
+				                </tr>
+				                <tr>
+				                    <td><span class="txt-gray">4</span></td>
+				                    <td>GNSS서비스</td>
+				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
+				                    <td>국토측량과</td>
+				                    <td><span class="txt-gray">2015.07.30</span></td>
+				                    <td><span class="has-file">첨부파일 있음</span></td>
+				                    <td><span class="txt-gray">10</span></td>
+				                </tr>
+				                <tr>
+				                    <td><span class="txt-gary">3</span></td>
+				                    <td>GNSS서비스</td>
+				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
+				                    <td>국토측량과</td>
+				                    <td><span class="txt-gray">2015.07.30</span></td>
+				                    <td><span class="has-file">첨부파일 있음</span></td>
+				                    <td><span class="txt-gray">10</span></td>
+				                </tr>
+				                <tr>
+				                    <td><span class="txt-gray"></span>2</td>
+				                    <td>GNSS서비스</td>
+				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
+				                    <td>국토측량과</td>
+				                    <td><span class="txt-gray">2015.07.30</span></td>
+				                    <td><span class="has-file">첨부파일 있음</span></td>
+				                    <td><span class="txt-gray">10</span></td>
+				                </tr>
+				                <tr>
+				                    <td><span class="txt-gray">1</span></td>
+				                    <td>GNSS서비스</td>
+				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
+				                    <td>국토측량과</td>
+				                    <td><span class="txt-gray">2015.07.30</span></td>
+				                    <td><span class="has-file">첨부파일 있음</span></td>
+				                    <td><span class="txt-gray">10</span></td>
+				                </tr>
+				            </tbody>
 						</table>
 					</div>
 				</div>
-				
-
 				<div id="paging" data-paging="paging" class="margin-top-30">
 					<a href="#" class="pg_page pg_start fa"><i class="fa fas fa-angle-double-left"></i><span class="blind">맨처음</span></a>
 					<a href="#" class="pg_page pg_prev fa margin-right-10"><i class="fa fa-angle-left"></i><span class="blind">이전</span></a>
@@ -255,7 +275,7 @@
 			</div>
 			<p class="foot_copyright">
 				© ALLFORLAND, All rights reserved.
-			</p>
+			
 		</div>
 	</footer>
 	<!-- #brand_foot -->
@@ -263,37 +283,6 @@
 </div>
 <!-- #brand_Wrap -->
 
-<script>
-    var adminTemplate = {
-    	settings : function(){
-    		$(".sidebar").mCustomScrollbar();
-    	},
-    	buble_menu : function(){
-    		var $btn = $(".depth-view>a");
-    		$btn.on("click" , function(event){
-    			event.stopPropagation();
-    			var $this = $(this),
-    				$parent = $this.parent("li"),
-    				$state = $parent.is(".menu-open") ? true : false;
-
-    				if($parent.is(".active") === false){
-	    				if($state === false){ // 활성화가 아닐 때 
-	    					$parent.addClass("menu-open");
-	    					$this.next("ul").stop().slideDown("fast");
-	    				} else {
-	    					$parent.removeClass("menu-open");
-	    					$this.next("ul").stop().slideUp("fast");
-	    				}
-    				}
-    			$this = null;
-    		});
-    	},
-    	init : function(){
-    		this.buble_menu();
-    	}
-    }
-    adminTemplate.init();
-</script>
 
 </body>
 </html>
