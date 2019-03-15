@@ -38,13 +38,15 @@ body{
 }
 body{
 	background-color:#ecf0f5;
+	overflow-y:hidden;
 }
 [data-layout="content"]{
 	position:relative;
 	width:calc(100% - 250px);
+	height:calc(100vh - 150px);
 	margin-left:250px;
 	padding:35px 20px;
-	width:1180px;
+	overflow-y:auto;
 }
 [data-content="header"]{
 	overflow:hidden;
@@ -71,10 +73,10 @@ body{
 		}
 	}
 }
-
 [data-content="content"]{
 	background-color:#fff;
 	padding:20px;
+	width:1180px;
 }
 .doc{
 	margin:-20px -20px 20px;

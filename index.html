@@ -19,13 +19,12 @@
   <script src="assets/components/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
   <script src="assets/components/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
   <script src="assets/components/OwlCarousel2/dist/owl.carousel.min.js"></script>
-  <script src="assets/components/clipboard/dist/clipboard.min.js"></script>
+
   <!-- 코드 highlight -->
   <link rel="stylesheet" href="assets/components/prism/prism.css">
   <script src="assets/components/prism/prism.js"></script>
   <!-- 컴포넌트 : common.js -->
   <script src="assets/js/common.js"></script>
-
   <!--[if lt IE 9]>
   	<script src="assets/html5shiv.min.js"></script>
   <![endif]-->
@@ -111,6 +110,9 @@
 
 	<!-- #brandContent -->
 	<section id="brand_content" data-layout="content">
+
+
+
 		<header data-content="header">
 			<h1 class="title">페이지타이틀</h1>
 			<div class="breadcrumb">
@@ -128,8 +130,36 @@
 					<button role="button" id="button__source--view">소스보기</button>
 				</div>
 <div data-content="code">
-<button role="button" id="button__source--copy" data-clipboard="table">소스복사</button>
-<pre><code class="language-html"><p>&lt;div id="paging" data-paging="paging" class="margin-top-30"&gt;</p>
+<button role="button" id="button__source--copy" data-clipboard="notice-page">소스복사</button>
+<pre><code class="language-html"><p>&lt;div data-style="table" data-table="table-horizontal"&gt;</p>
+	<p>&lt;table&gt;</p>
+	<p>&lt;caption class="blind"&gt;테이블설명&lt;/caption&gt;</p>
+	<p>&lt;thead&gt;</p>
+	<p>&lt;tr&gt;</p>
+		<p>&lt;th scope="col"&gt;번호&lt;/th&gt;</p>
+		<p>&lt;th scope="col"&gt;서비스 구분&lt;/th&gt;</p>
+		<p>&lt;th scope="col"&gt;제목&lt;/th&gt;</p>
+		<p>&lt;th scope="col"&gt;담당부서&lt;/th&gt;</p>
+		<p>&lt;th scope="col"&gt;등록일&lt;/th&gt;</p>
+		<p>&lt;th scope="col"&gt;첨부파일&lt;/th&gt;</p>
+		<p>&lt;th scope="col"&gt;조회수&lt;/th&gt;</p>
+	<p>&lt;/tr&gt;</p>
+	<p>&lt;/thead&gt;</p>
+	<p>&lt;tbody&gt;</p>
+	<p>&lt;tr&gt;</p>
+		<p>&lt;td&gt;&lt;span class="txt-gray"&gt;10&lt;/span&gt;&lt;/td&gt;</p>
+		<p>&lt;td&gt;GNSS서비스&lt;/td&gt;</p>
+		<p>&lt;td class="subject"&gt;&lt;a href="PB_SC_282.html"&gt;순천 위성기준점 시설 개량공사&lt;/a&gt;&lt;/td&gt;</p>
+		<p>&lt;td&gt;국토측량과&lt;/td&gt;</p>
+		<p>&lt;td&gt;&lt;span class="txt-gray"&gt;2015.07.30&lt;/span&gt;&lt;/td&gt;</p>
+		<p>&lt;td&gt;&lt;span class="has-file"&gt;첨부파일 있음&lt;/span&gt;&lt;/td&gt;</p>
+		<p>&lt;td&gt;&lt;span class="txt-gray"&gt;10&lt;/span&gt;&lt;/td&gt;</p>
+	<p>&lt;/tr&gt;</p>
+	<p>&lt;/tbody&gt;</p>
+	<p>&lt;/table&gt;</p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+<p>&lt;div id="paging" data-paging="paging" class="margin-top-30"&gt;</p>
 	<p>&lt;a href="#" class="pg_page pg_start fa"&gt;&lt;i class="fa fas fa-angle-double-left"&gt;&lt;/i&gt;&lt;span class="blind"&gt;맨처음&lt;/span&gt;&lt;/a&gt;</p>
 	<p>&lt;a href="#" class="pg_page pg_prev fa margin-right-10"&gt;&lt;i class="fa fa-angle-left"&gt;&lt;/i&gt;&lt;span class="blind"&gt;이전&lt;/span&gt;&lt;/a&gt;</p>
 	<p>&lt;strong class="pg_current"&gt;&lt;span class="blind"&gt;현재페이지&lt;/span&gt;1&lt;/strong&gt;</p>
@@ -142,7 +172,7 @@
 <p>&lt;/div&gt;</p>
 </code></pre>				
 </div>    
-				<div data-copy="table">
+				<div data-copy="notice-page">
 					<div data-style="table" data-table="table-horizontal">
 						<table>
 							<caption class="blind">테이블설명</caption>
@@ -251,17 +281,18 @@
 				            </tbody>
 						</table>
 					</div>
-				</div>
-				<div id="paging" data-paging="paging" class="margin-top-30">
-					<a href="#" class="pg_page pg_start fa"><i class="fa fas fa-angle-double-left"></i><span class="blind">맨처음</span></a>
-					<a href="#" class="pg_page pg_prev fa margin-right-10"><i class="fa fa-angle-left"></i><span class="blind">이전</span></a>
-					<strong class="pg_current"><span class="blind">현재페이지</span>1</strong>
-					<a href="#" class="pg_page">2<span class="blind">페이지</span></a>
-					<a href="#" class="pg_page">3<span class="blind">페이지</span></a>
-					<a href="#" class="pg_page">4<span class="blind">페이지</span></a>
-					<a href="#" class="pg_page">5<span class="blind">페이지</span></a>
-					<a href="#" class="pg_page pg_next fa margin-left-10"><i class="fa fa-angle-right"></i><span class="blind">다음</span></a>
-					<a href="#" class="pg_page pg_end fa"><i class="fa fas fa-angle-double-right"></i><span class="blind">맨끝</span></a>
+
+					<div id="paging" data-paging="paging" class="margin-top-30">
+						<a href="#" class="pg_page pg_start fa"><i class="fa fas fa-angle-double-left"></i><span class="blind">맨처음</span></a>
+						<a href="#" class="pg_page pg_prev fa margin-right-10"><i class="fa fa-angle-left"></i><span class="blind">이전</span></a>
+						<strong class="pg_current"><span class="blind">현재페이지</span>1</strong>
+						<a href="#" class="pg_page">2<span class="blind">페이지</span></a>
+						<a href="#" class="pg_page">3<span class="blind">페이지</span></a>
+						<a href="#" class="pg_page">4<span class="blind">페이지</span></a>
+						<a href="#" class="pg_page">5<span class="blind">페이지</span></a>
+						<a href="#" class="pg_page pg_next fa margin-left-10"><i class="fa fa-angle-right"></i><span class="blind">다음</span></a>
+						<a href="#" class="pg_page pg_end fa"><i class="fa fas fa-angle-double-right"></i><span class="blind">맨끝</span></a>
+					</div>
 				</div>
 			</div>
 			<!-- .container -->
@@ -283,10 +314,7 @@
 		</div>
 	</footer>
 	<!-- #brand_foot -->
-
 </div>
 <!-- #brand_Wrap -->
-
-
 </body>
 </html>
