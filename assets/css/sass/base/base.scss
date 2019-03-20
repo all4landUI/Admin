@@ -37,7 +37,6 @@ body{
 	height:100%;
 }
 body{
-	background-color:#ecf0f5;
 	overflow-y:hidden;
 }
 [data-layout="content"]{
@@ -52,7 +51,13 @@ body{
 	overflow:hidden;
 	padding-bottom:20px;
 	.title{
-		float:left;
+		font-size:28px;
+		font-weight:400;
+	}
+	.info-text{
+		font-size:14px;
+		color:#5e6d82;
+		line-height:2em;
 	}
 	.breadcrumb{
 		float:right;
@@ -74,16 +79,137 @@ body{
 	}
 }
 [data-content="content"]{
-	background-color:#fff;
-	padding:20px;
-	width:1180px;
+	padding:20px 0;
+	width:870px;
 }
-.doc{
-	margin:-20px -20px 20px;
-	padding:20px;
-	background-color:#3c8dbc;
-	color:#fff;
+
+
+/*
+* 컨텐츠 : 데모
+*/
+.source-title{
+	font-size:24px;
+	padding:55px 0 20px;
+	font-weight:400;
 }
+
+.source-text{
+	font-size: 14px;
+    color: #5e6d82;
+    line-height: 1.5em;
+}
+.demo-title{
+	font-weight:400;
+	font-size:22px;
+}
+.demo-text{
+    font-size: 14px;
+    color: #5e6d82;
+    line-height: 1.5em;
+    margin:1em 0;
+}
+
+.demo-block{
+	border: 1px solid #ebebeb;
+    border-radius: 3px;
+    transition: .2s;
+    margin-bottom:24px;
+    .source{
+    	padding: 24px;
+    }
+    .meta{
+    	background-color: #fafafa;
+	    border-top: 1px solid #eaeefb;
+	    overflow: hidden;
+	    height: 0;
+	    transition: height .2s;
+	    .description{
+		    padding: 20px;
+		    box-sizing: border-box;
+		    border: 1px solid #ebebeb;
+		    border-radius: 3px;
+		    font-size: 14px;
+		    line-height: 22px;
+		    color: #666;
+		    word-break: break-word;
+		    margin: 10px;
+		    background-color: #fff;
+		    code{
+		    	color: #5e6d82;
+			    background-color: #e6effb;
+			    margin: 0 4px;
+			    display: inline-block;
+			    padding: 1px 5px;
+			    font-size: 12px;
+			    border-radius: 3px;
+			    height: 18px;
+			    line-height: 18px;
+		    }
+	    }
+    }
+    .demo-control{
+    	border-top: 1px solid #eaeefb;
+	    height: 44px;
+	    box-sizing: border-box;
+	    background-color: #fff;
+	    border-bottom-left-radius: 4px;
+	    border-bottom-right-radius: 4px;
+	    text-align: center;
+	    margin-top: -1px;
+	    color: #d3dce6;
+	    cursor: pointer;
+	    position: relative;
+	    text-align:center;
+	    width:100%;
+	    text-align:center;
+	    &:hover{
+	    	&:after{
+	    		color:#d3dce6;
+	    	}	
+	    }
+	    &:after{
+	    	font-size: 16px;
+    		line-height: 44px;
+	    	content: "\f0d7";
+	    }
+    }
+}
+
+/*
+ * 데모 페이지 요소 디자인 : demo-layout;
+ */
+ .demo-layout{
+ 	[data-col]{
+ 		background-color:#d3dce6;
+ 		padding:10px;
+ 	}
+ 	[data-grid="row"]{
+ 		&+[data-grid="row"]{
+ 			margin-top:10px;
+ 		}
+ 	}
+ }
+ 
+ /*
+  *  Components : grid , layer;
+  */
+[data-grid="row"]{
+	&:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+}
+[data-col]{
+	float:left;
+}
+$total : 13;
+@for $i from 1 to $total {
+	[data-col="#{$i}"]{
+		width: ($i/12) * 100%;
+	}	
+}
+
 /* 
 * 구조 : Header 
 */
@@ -147,11 +273,11 @@ body{
 	top:0;
 	width:250px;
 	height:100vh;
-	padding:50px 0 0;
+	padding:100px 0 0;
 	z-index:100;
 }
 .sidebar{
-	background-color:#222d32;
+	background-color:#fff;
 	position:relative;
 	width:100%;
 	height:100%;
@@ -163,9 +289,7 @@ body{
 		>strong{
 			display:block;
 			text-align:center;
-			color:rgba(255,255,255,0.7);
 			padding:12px 0 12px 0;
-			background-color:#1b1b1b;
 			font-weight:500;
 			font-size:1.1em;
 		}
@@ -177,7 +301,6 @@ body{
 		&.active,
 		&.menu-open{
 			>a{
-				background-color:#1e282c;
 				color:#fff;
 				border-left:2px solid #3c8dbc;
 				transition: all 0.15s ease-in;
@@ -187,22 +310,11 @@ body{
 		>a{
 			display:block;
 			position:relative;
-			color:rgba(255,255,255,0.8);
-			padding:12px 5px 12px 15px;
-			font-size:1em;
-
-			&:after{
-				@include font_awesome();
-				content:"\f068";
-				display:block;
-				position:absolute;
-				top:50%;
-				right:15px;
-				margin-top:-5px;
-				transition:all 0.15s ease-in;
-				opacity:0.5;
-			}
-			
+			font-size: 12px;
+		    color: #999;
+		    line-height: 26px;
+		    margin-top: 15px;
+		    padding-left:20px;
 		}
 		&.depth-view{
 			>a:after{
@@ -219,7 +331,6 @@ body{
 		}
 		.depth-menu{ /* 1차뎁스메뉴 */
 			display:none;
-			background-color:#2c3b41;
 			padding-left:10px;
 			>li{
 				>a{
@@ -250,6 +361,6 @@ body{
 		font-size:1em;
 	}
 	.foot_copyright{
-		font-size:1em;
+		font-size:1em;	
 	}
 }

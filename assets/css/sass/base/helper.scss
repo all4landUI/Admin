@@ -33,3 +33,16 @@ $total: 41;
 	}	
 }
 
+$width_total : 500;
+@for $i from 1 to $width_total {
+	.width-#{$i}{
+		width: 1px*$i;
+	}	
+}
+$height_total : 500;
+@for $i from 1 to $width_total {
+	.height-#{$i}{
+		height: 1px*$i;
+	}	
+}
+

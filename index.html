@@ -50,59 +50,8 @@
 	<aside id="brand_sidebar">
 		<div class="sidebar mCustomScrollbar">
 			<ul data-menu="side">
-				<li class="title_menu"><strong>샘플</strong></li>
-				<li class="depth-view">
-					<a href="#">회원관리</a>
-					<ul class="depth-menu">
-						<li><a href="member/member_list.html">회원관리</a></li>
-						<li><a href=""></a></li>
-					</ul>
-				</li>
-				<li class="depth-view active">
-					<a href="#">공지사항</a>
-					<ul class="depth-menu">
-						<li><a href="#">목록</a></li>
-						<li><a href="#">상세</a></li>
-						<li><a href="#">글쓰기</a></li>
-					</ul>
-				</li>
-				<li class="depth-view">
-					<a href="#">갤러리</a>
-					<ul class="depth-menu">
-						<li><a href="#">목록</a></li>
-						<li><a href="#">상세</a></li>
-						<li><a href="#">글쓰기</a></li>
-					</ul>
-				</li>
-				<li class="depth-view">
-					<a href="#">FAQ</a>
-					<ul class="depth-menu">
-						<li><a href="#">목록</a></li>
-						<li><a href="#">글쓰기</a></li>
-					</ul>
-				</li>
-				<li class="depth-view">
-					<a href="#">배너관리</a>
-					<ul class="depth-menu">
-						<li><a href="#">목록</a></li>
-						<li><a href="#">글쓰기</a></li>
-					</ul>
-				</li>
-				<li class="title_menu"><strong>컴포넌트</strong></li>
-				<li><a href="#">테이블</a></li>
-				<li class="depth-view">
-					<a href="#">폼</a>
-					<ul class="depth-menu">
-						<li><a href="#">SELECT</a></li>
-						<li><a href="#">INPUT</a></li>
-						<li><a href="#">TEXTAREA</a></li>
-					</ul>
-				</li>
-				<li><a href="#">버튼</a></li>
-				<li class="title_menu"><strong>스크립트</strong></li>
-				<li><a href="#">모달</a></li>
-				<li><a href="#">아코디언</a></li>
-				<li><a href="#">툴팁</a></li>
+				<li><a href="#">Document</a></li>
+				<li><a href="#">Document</a></li>
 			</ul>
 		</div>
 	</aside>
@@ -110,197 +59,90 @@
 
 	<!-- #brandContent -->
 	<section id="brand_content" data-layout="content">
-
-
-
 		<header data-content="header">
-			<h1 class="title">페이지타이틀</h1>
-			<div class="breadcrumb">
-				<span class="home fa">홈</span>
-				<span class="fa">1차메뉴</span>
-				<strong>현재페이지</strong>
-			</div>
+			<h1 class="title">Document</h1>
+			<p class="info-text">사용법을 설명합니다.</p>
 		</header>
-		
+
 		<!-- .content -->
 		<div data-content="content">
-			<h2 class="blind">본문내용시작</h2>
-			<div class="container">
-				<div class="doc">
-					<button role="button" id="button__source--view">소스보기</button>
+
+			<h2 class="demo-title">기본형</h2>
+			<p class="demo-text">열을 사용하여 기본 모든 레이아웃을 만듭니다.</p>
+			<div class="demo-block demo-layout">
+				<div class="source">
+					<div data-grid="row">
+						<div data-col="12">
+							data-grid=12
+						</div>
+					</div>
+					<div data-grid="row">
+						<div data-col="1">
+							data-grid=1
+						</div>
+						<div data-col="2">
+							data-grid=2
+						</div>
+						<div data-col="4">
+							data-grid=4
+						</div>
+						<div data-col="5">
+							data-grid=5
+						</div>
+					</div>
 				</div>
-<div data-content="code">
-<button role="button" id="button__source--copy" data-clipboard="notice-page">소스복사</button>
-<pre><code class="language-html"><p>&lt;div data-style="table" data-table="table-horizontal"&gt;</p>
-	<p>&lt;table&gt;</p>
-	<p>&lt;caption class="blind"&gt;테이블설명&lt;/caption&gt;</p>
-	<p>&lt;thead&gt;</p>
-	<p>&lt;tr&gt;</p>
-		<p>&lt;th scope="col"&gt;번호&lt;/th&gt;</p>
-		<p>&lt;th scope="col"&gt;서비스 구분&lt;/th&gt;</p>
-		<p>&lt;th scope="col"&gt;제목&lt;/th&gt;</p>
-		<p>&lt;th scope="col"&gt;담당부서&lt;/th&gt;</p>
-		<p>&lt;th scope="col"&gt;등록일&lt;/th&gt;</p>
-		<p>&lt;th scope="col"&gt;첨부파일&lt;/th&gt;</p>
-		<p>&lt;th scope="col"&gt;조회수&lt;/th&gt;</p>
-	<p>&lt;/tr&gt;</p>
-	<p>&lt;/thead&gt;</p>
-	<p>&lt;tbody&gt;</p>
-	<p>&lt;tr&gt;</p>
-		<p>&lt;td&gt;&lt;span class="txt-gray"&gt;10&lt;/span&gt;&lt;/td&gt;</p>
-		<p>&lt;td&gt;GNSS서비스&lt;/td&gt;</p>
-		<p>&lt;td class="subject"&gt;&lt;a href="PB_SC_282.html"&gt;순천 위성기준점 시설 개량공사&lt;/a&gt;&lt;/td&gt;</p>
-		<p>&lt;td&gt;국토측량과&lt;/td&gt;</p>
-		<p>&lt;td&gt;&lt;span class="txt-gray"&gt;2015.07.30&lt;/span&gt;&lt;/td&gt;</p>
-		<p>&lt;td&gt;&lt;span class="has-file"&gt;첨부파일 있음&lt;/span&gt;&lt;/td&gt;</p>
-		<p>&lt;td&gt;&lt;span class="txt-gray"&gt;10&lt;/span&gt;&lt;/td&gt;</p>
-	<p>&lt;/tr&gt;</p>
-	<p>&lt;/tbody&gt;</p>
-	<p>&lt;/table&gt;</p>
+				<div class="meta">
+					<div class="description">
+						<code>data-col=*</code> 1~12 사용
+					</div>
+					
+					<div class="highlight">
+<pre><code class="language-html">
+<p>&lt;div data-grid="row"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div data-col="12"&gt;</p>
+<p><span style="white-space:pre">		</span>data-grid=12</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;</p>
 <p>&lt;/div&gt;</p>
-<p><br /></p>
-<p>&lt;div id="paging" data-paging="paging" class="margin-top-30"&gt;</p>
-	<p>&lt;a href="#" class="pg_page pg_start fa"&gt;&lt;i class="fa fas fa-angle-double-left"&gt;&lt;/i&gt;&lt;span class="blind"&gt;맨처음&lt;/span&gt;&lt;/a&gt;</p>
-	<p>&lt;a href="#" class="pg_page pg_prev fa margin-right-10"&gt;&lt;i class="fa fa-angle-left"&gt;&lt;/i&gt;&lt;span class="blind"&gt;이전&lt;/span&gt;&lt;/a&gt;</p>
-	<p>&lt;strong class="pg_current"&gt;&lt;span class="blind"&gt;현재페이지&lt;/span&gt;1&lt;/strong&gt;</p>
-	<p>&lt;a href="#" class="pg_page"&gt;2&lt;span class="blind"&gt;페이지&lt;/span&gt;&lt;/a&gt;</p>
-	<p>&lt;a href="#" class="pg_page"&gt;3&lt;span class="blind"&gt;페이지&lt;/span&gt;&lt;/a&gt;</p>
-	<p>&lt;a href="#" class="pg_page"&gt;4&lt;span class="blind"&gt;페이지&lt;/span&gt;&lt;/a&gt;</p>
-	<p>&lt;a href="#" class="pg_page"&gt;5&lt;span class="blind"&gt;페이지&lt;/span&gt;&lt;/a&gt;</p>
-	<p>&lt;a href="#" class="pg_page pg_next fa margin-left-10"&gt;&lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;&lt;span class="blind"&gt;다음&lt;/span&gt;&lt;/a&gt;</p>
-	<p>&lt;a href="#" class="pg_page pg_end fa"&gt;&lt;i class="fa fas fa-angle-double-right"&gt;&lt;/i&gt;&lt;span class="blind"&gt;맨끝&lt;/span&gt;&lt;/a&gt;</p>
+<p>&lt;div data-grid="row"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div data-col="1"&gt;</p>
+<p><span style="white-space:pre">		</span>data-grid=1</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div data-col="2"&gt;</p>
+<p><span style="white-space:pre">		</span>data-grid=2</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div data-col="4"&gt;</p>
+<p><span style="white-space:pre">		</span>data-grid=4</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div data-col="5"&gt;</p>
+<p><span style="white-space:pre">		</span>data-grid=5</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;</p>
 <p>&lt;/div&gt;</p>
-</code></pre>				
-</div>    
-				<div data-copy="notice-page">
-					<div data-style="table" data-table="table-horizontal">
-						<table>
-							<caption class="blind">테이블설명</caption>
-							<thead>
-				                <tr>
-				                    <th scope="col">번호</th>
-				                    <th scope="col">서비스 구분</th>
-				                    <th scope="col">제목</th>
-				                    <th scope="col">담당부서</th>
-				                    <th scope="col">등록일</th>
-				                    <th scope="col">첨부파일</th>
-				                    <th scope="col">조회수</th>
-				                </tr>
-				            </thead>
-				            <tbody>
-				                <tr>
-				                    <td><span class="txt-gray">10</span></td>
-				                    <td>GNSS서비스</td>
-				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-				                    <td>국토측량과</td>
-				                    <td><span class="txt-gray">2015.07.30</span></td>
-				                    <td><span class="has-file">첨부파일 있음</span></td>
-				                    <td><span class="txt-gray">10</span></td>
-				                </tr>
-				                <tr>
-				                    <td><span class="txt-gray">9</span></td>
-				                    <td>국토정보플랫폼</td>
-				                    <td class="subject"><a href="PB_SC_282.html">웨서비스 개선(공모) 결과</a></td>
-				                    <td>국토측량과</td>
-				                    <td><span class="txt-gray">2015.07.30</span></td>
-				                    <td><span class="has-file">첨부파일 있음</span></td>
-				                    <td><span class="txt-gray">10</span></td>
-				                </tr>
-				                <tr>
-				                    <td><span class="txt-gray">8</span></td>
-				                    <td>극지공간정보</td>
-				                    <td class="subject"><a href="PB_SC_282.html">시스템 점검 및 모니터링 안내</a></td>
-				                    <td>공간영상과<br>국토측량과</td>
-				                    <td><span class="txt-gray">2015.07.30</span></td>
-				                    <td></td>
-				                    <td><span class="txt-gray">10</span></td>
-				                </tr>
-				                <tr>
-				                    <td><span class="txt-gray">7</span></td>
-				                    <td>GNSS서비스</td>
-				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-				                    <td>국토측량과</td>
-				                    <td><span class="txt-gray">2015.07.30</span></td>
-				                    <td></td>
-				                    <td><span class="txt-gray">10</span></td>
-				                </tr>
-				                <tr>
-				                    <td><span class="txt-gray">6</span></td>
-				                    <td>GNSS서비스</td>
-				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-				                    <td>국토측량과</td>
-				                    <td><span class="txt-gray">2015.07.30</span></td>
-				                    <td><span class="has-file">첨부파일 있음</span></td>
-				                    <td><span class="txt-gray">10</span></td>
-				                </tr>
-				                <tr>
-				                    <td><span class="txt-gray">5</span></td>
-				                    <td>GNSS서비스</td>
-				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-				                    <td>국토측량과</td>
-				                    <td><span class="txt-gray">2015.07.30</span></td>
-				                    <td><span class="has-file">첨부파일 있음</span></td>
-				                    <td><span class="txt-gray">10</span></td>
-				                </tr>
-				                <tr>
-				                    <td><span class="txt-gray">4</span></td>
-				                    <td>GNSS서비스</td>
-				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-				                    <td>국토측량과</td>
-				                    <td><span class="txt-gray">2015.07.30</span></td>
-				                    <td><span class="has-file">첨부파일 있음</span></td>
-				                    <td><span class="txt-gray">10</span></td>
-				                </tr>
-				                <tr>
-				                    <td><span class="txt-gary">3</span></td>
-				                    <td>GNSS서비스</td>
-				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-				                    <td>국토측량과</td>
-				                    <td><span class="txt-gray">2015.07.30</span></td>
-				                    <td><span class="has-file">첨부파일 있음</span></td>
-				                    <td><span class="txt-gray">10</span></td>
-				                </tr>
-				                <tr>
-				                    <td><span class="txt-gray"></span>2</td>
-				                    <td>GNSS서비스</td>
-				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-				                    <td>국토측량과</td>
-				                    <td><span class="txt-gray">2015.07.30</span></td>
-				                    <td><span class="has-file">첨부파일 있음</span></td>
-				                    <td><span class="txt-gray">10</span></td>
-				                </tr>
-				                <tr>
-				                    <td><span class="txt-gray">1</span></td>
-				                    <td>GNSS서비스</td>
-				                    <td class="subject"><a href="PB_SC_282.html">순천 위성기준점 시설 개량공사</a></td>
-				                    <td>국토측량과</td>
-				                    <td><span class="txt-gray">2015.07.30</span></td>
-				                    <td><span class="has-file">첨부파일 있음</span></td>
-				                    <td><span class="txt-gray">10</span></td>
-				                </tr>
-				            </tbody>
-						</table>
+</code></pre>
 					</div>
 
-					<div id="paging" data-paging="paging" class="margin-top-30">
-						<a href="#" class="pg_page pg_start fa"><i class="fa fas fa-angle-double-left"></i><span class="blind">맨처음</span></a>
-						<a href="#" class="pg_page pg_prev fa margin-right-10"><i class="fa fa-angle-left"></i><span class="blind">이전</span></a>
-						<strong class="pg_current"><span class="blind">현재페이지</span>1</strong>
-						<a href="#" class="pg_page">2<span class="blind">페이지</span></a>
-						<a href="#" class="pg_page">3<span class="blind">페이지</span></a>
-						<a href="#" class="pg_page">4<span class="blind">페이지</span></a>
-						<a href="#" class="pg_page">5<span class="blind">페이지</span></a>
-						<a href="#" class="pg_page pg_next fa margin-left-10"><i class="fa fa-angle-right"></i><span class="blind">다음</span></a>
-						<a href="#" class="pg_page pg_end fa"><i class="fa fas fa-angle-double-right"></i><span class="blind">맨끝</span></a>
-					</div>
 				</div>
+				<div class="demo-control fa"></div>
 			</div>
-			<!-- .container -->
+			
 		</div>
 		<!-- .content -->
-
 	</section>
 	<!-- #brandContent -->
+	<script>
+		$(".demo-control").on("click" , function(event){
+			event.stopPropagation();
+		
+			if($(this).is(".active")){
+				$(this).prev(".meta").height(0);
+				$(this).removeClass('active');
+			} else {
+				var height = $(this).siblings(".meta").find(".highlight").outerHeight() + $(this).siblings(".meta").find(".description").outerHeight() + 20;
+				$(this).prev(".meta").height(height);
+				$(this).addClass('active');
+			}
+
+		});
+	</script>
 
 	<!-- #brand_foot -->
 	<footer id="brand_foot" data-layout="foot">
@@ -310,7 +152,7 @@
 			</div>
 			<p class="foot_copyright">
 				© ALLFORLAND, All rights reserved.
-			
+			</p>
 		</div>
 	</footer>
 	<!-- #brand_foot -->
