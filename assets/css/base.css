@@ -72,6 +72,11 @@ body { overflow-y: hidden; }
 [data-content="header"] .breadcrumb span:after { content: "\f105"; position: absolute; right: 0; }
 
 [data-content="content"] { padding: 20px 0; width: 870px; }
+[data-content="content"] > table { border-collapse: collapse; width: 100%; background-color: #fff; font-size: 14px; margin-bottom: 45px; line-height: 1.5em; }
+[data-content="content"] > table th, [data-content="content"] > table td { border-bottom: 1px solid #dcdfe6; padding: 15px; max-width: 250px; }
+[data-content="content"] > table th { text-align: left; white-space: nowrap; color: #909399; font-weight: 400; }
+[data-content="content"] > table td { color: #606266; }
+[data-content="content"] > h3 { margin: 55px 0 20px; font-size: 22px; }
 
 /*
 * 컨텐츠 : 데모
