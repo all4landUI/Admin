@@ -77,18 +77,11 @@ body { overflow-y: hidden; }
 [data-content="content"] > table th { text-align: left; white-space: nowrap; color: #909399; font-weight: 400; }
 [data-content="content"] > table td { color: #606266; }
 [data-content="content"] > h3 { margin: 55px 0 20px; font-size: 22px; }
+[data-content="content"] > p { font-size: 14px; color: #5e6d82; line-height: 1.5em; margin: 1em 0; }
 
 /*
 * 컨텐츠 : 데모
 */
-.source-title { font-size: 24px; padding: 55px 0 20px; font-weight: 400; }
-
-.source-text { font-size: 14px; color: #5e6d82; line-height: 1.5em; }
-
-.demo-title { font-weight: 400; font-size: 22px; }
-
-.demo-text { font-size: 14px; color: #5e6d82; line-height: 1.5em; margin: 1em 0; }
-
 .demo-block { border: 1px solid #ebebeb; border-radius: 3px; transition: .2s; margin-bottom: 24px; }
 .demo-block .source { padding: 24px; }
 .demo-block .meta { background-color: #fafafa; border-top: 1px solid #eaeefb; overflow: hidden; height: 0; transition: height .2s; }

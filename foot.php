@@ -14,7 +14,7 @@
 		});
 	</script>
 
-	<!-- #brand_foot -->
+	<!-- #brand_foot
 	<footer id="brand_foot" data-layout="foot">
 		<div class="inner_foot">
 			<div class="foot_addr">
@@ -25,7 +25,7 @@
 			</p>
 		</div>
 	</footer>
-	<!-- #brand_foot -->
+	#brand_foot -->
 </div>
 <!-- #brand_Wrap -->
 </body>

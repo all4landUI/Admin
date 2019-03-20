@@ -108,33 +108,18 @@ body{
 		margin:55px 0 20px;
 		font-size:22px;
 	}
+	>p{
+		font-size: 14px;
+	    color: #5e6d82;
+	    line-height: 1.5em;
+	    margin:1em 0;
+	}
 }
 
 
 /*
 * 컨텐츠 : 데모
 */
-.source-title{
-	font-size:24px;
-	padding:55px 0 20px;
-	font-weight:400;
-}
-
-.source-text{
-	font-size: 14px;
-    color: #5e6d82;
-    line-height: 1.5em;
-}
-.demo-title{
-	font-weight:400;
-	font-size:22px;
-}
-.demo-text{
-    font-size: 14px;
-    color: #5e6d82;
-    line-height: 1.5em;
-    margin:1em 0;
-}
 
 .demo-block{
 	border: 1px solid #ebebeb;
