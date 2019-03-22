@@ -1,0 +1,11 @@
+.ui-table { border-top: 1px solid #ddd; }
+.ui-table table { width: 100%; }
+.ui-table table caption { position: absolute; left: -9999em; }
+.ui-table table th, .ui-table table td { padding: 7px 0; border-bottom: 1px solid #ddd; }
+.ui-table table td { padding-left: 10px; padding-right: 10px; }
+.ui-table table thead { background-color: #f8f8f8; }
+.ui-table table tbody tr.center td { text-align: center; }
+.ui-table table tbody tr td:first-child { border-left: 0; }
+.ui-table table tbody td { border-left: 1px solid #ddd; }
+.ui-table.table-vertical th { background-color: #f8f8f8; text-align: left; }
+.ui-table.table-vertical th, .ui-table.table-vertical td { padding: 10px; }
