@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/common.css">
   <link rel="stylesheet" href="assets/css/helper.css">
+  <!-- 스타일 : 컴포넌트 -->
+  <link rel="stylesheet" href="assets/css/ui-tab.css">
+
   <!-- 기본 스크립트 -->
   <script src="assets/js/jquery-1.12.4.min.js"></script>
   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
@@ -50,8 +53,9 @@
 	<aside id="brand_sidebar">
 		<div class="sidebar mCustomScrollbar">
 			<ul data-menu="side">
-				<li><a href="#">Document</a></li>
-				<li><a href="#">Document</a></li>
+				<li><a href="guide.php">Guide</a></li>
+				<li><a href="document.php">Document</a></li>
+        <li><a href="tabs.php">Tabs</a></li>
 			</ul>
 		</div>
 	</aside>

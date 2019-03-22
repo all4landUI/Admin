@@ -120,7 +120,6 @@ body{
 /*
 * 컨텐츠 : 데모
 */
-
 .demo-block{
 	border: 1px solid #ebebeb;
     border-radius: 3px;
@@ -186,17 +185,19 @@ body{
 	    }
     }
 }
-
 /*
- * 데모 페이지 요소 디자인 : demo-layout;
+ * 데모 페이지 디자인: demo-layout;
  */
  .demo-layout{
- 	[data-col]{
- 		background-color:#d3dce6;
- 		padding:10px;
- 	}
- 	[data-grid="row"]{
- 		&+[data-grid="row"]{
+ 	$total : 13;
+	@for $i from 1 to $total {
+		.ui-col_#{$i}{
+		  background-color:#d3dce6;
+ 		  padding:10px;
+		}	
+	}
+ 	.ui-row{
+ 		&+.ui-row{
  			margin-top:10px;
  		}
  	}
@@ -205,19 +206,19 @@ body{
  /*
   *  Components : grid , layer;
   */
-[data-grid="row"]{
+.ui-row{
 	&:after{
 		content:"";
 		display:block;
 		clear:both;
 	}
 }
-[data-col]{
+.ui-col{
 	float:left;
 }
 $total : 13;
 @for $i from 1 to $total {
-	[data-col="#{$i}"]{
+	.ui-col-#{$i}{
 		width: ($i/12) * 100%;
 	}	
 }

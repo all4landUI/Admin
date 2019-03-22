@@ -91,38 +91,49 @@ body { overflow-y: hidden; }
 .demo-block .demo-control:hover:after { color: #d3dce6; }
 .demo-block .demo-control:after { font-size: 16px; line-height: 44px; content: "\f0d7"; }
 
-/* 데모 페이지 요소 디자인 : demo-layout; */
-.demo-layout [data-col] { background-color: #d3dce6; padding: 10px; }
-.demo-layout [data-grid="row"] + [data-grid="row"] { margin-top: 10px; }
+/* 데모 페이지 디자인: demo-layout; */
+.demo-layout .ui-col-1 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-2 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-3 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-4 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-5 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-6 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-7 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-8 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-9 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-10 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-11 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-col-12 { background-color: #d3dce6; padding: 10px; }
+.demo-layout .ui-row + .ui-row { margin-top: 10px; }
 
 /* Components : grid , layer; */
-[data-grid="row"]:after { content: ""; display: block; clear: both; }
+.ui-row:after { content: ""; display: block; clear: both; }
 
-[data-col] { float: left; }
+.ui-col { float: left; }
 
-[data-col="1"] { width: 8.3333333333%; }
+.ui-col-1 { width: 8.3333333333%; }
 
-[data-col="2"] { width: 16.6666666667%; }
+.ui-col-2 { width: 16.6666666667%; }
 
-[data-col="3"] { width: 25%; }
+.ui-col-3 { width: 25%; }
 
-[data-col="4"] { width: 33.3333333333%; }
+.ui-col-4 { width: 33.3333333333%; }
 
-[data-col="5"] { width: 41.6666666667%; }
+.ui-col-5 { width: 41.6666666667%; }
 
-[data-col="6"] { width: 50%; }
+.ui-col-6 { width: 50%; }
 
-[data-col="7"] { width: 58.3333333333%; }
+.ui-col-7 { width: 58.3333333333%; }
 
-[data-col="8"] { width: 66.6666666667%; }
+.ui-col-8 { width: 66.6666666667%; }
 
-[data-col="9"] { width: 75%; }
+.ui-col-9 { width: 75%; }
 
-[data-col="10"] { width: 83.3333333333%; }
+.ui-col-10 { width: 83.3333333333%; }
 
-[data-col="11"] { width: 91.6666666667%; }
+.ui-col-11 { width: 91.6666666667%; }
 
-[data-col="12"] { width: 100%; }
+.ui-col-12 { width: 100%; }
 
 /* 
 * 구조 : Header 

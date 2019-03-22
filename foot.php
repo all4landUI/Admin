@@ -1,4 +1,4 @@
-<script>
+	<script>
 		$(".demo-control").on("click" , function(event){
 			event.stopPropagation();
 		
@@ -10,7 +10,6 @@
 				$(this).prev(".meta").height(height);
 				$(this).addClass('active');
 			}
-
 		});
 	</script>
 
