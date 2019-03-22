@@ -62,6 +62,7 @@
         <li><a href="tabs.php">Tabs</a></li>
         <li><a href="table.php">Table</a></li>
         <li><a href="font.php">Font</a></li>
+        <li><a href="button.php">button</a></li>
 			</ul>
 		</div>
 	</aside>
