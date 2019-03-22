@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/common.css">
   <link rel="stylesheet" href="assets/css/helper.css">
+  <link rel="stylesheet" href="assets/css/css/ui.css">
   <!-- 스타일 : 컴포넌트 -->
   <link rel="stylesheet" href="assets/css/ui-tab.css">
-
   <!-- 기본 스크립트 -->
   <script src="assets/js/jquery-1.12.4.min.js"></script>
   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
@@ -38,7 +38,7 @@
 	
 	<!-- #brand_header -->
 	<header id="brand_header" data-layout="header">
-		<h1 class="brand_name"><strong>브랜드명</strong> 관리자</h1>
+		<h1 class="brand_name"><strong>브랜드명</strong> 관리자</h1>67
 		<div data-menu="header">
 			<ul>
 				<li><span>홍길동님 안녕하세요.</span></li>
