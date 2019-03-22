@@ -9,6 +9,16 @@
 **/
 // 기본형
 
+.ta-l{
+	text-align:left;
+}
+.ta-c{
+	text-align:center;
+}
+.ta-r{
+	text-align:right;
+}
+
 
 $total: 41;
 /* total 변경시 max 변경 가능 */
@@ -36,13 +46,13 @@ $total: 41;
 $width_total : 500;
 @for $i from 1 to $width_total {
 	.width-#{$i}{
-		width: 1px*$i;
+		width: 1px*$i !important;
 	}	
 }
 $height_total : 500;
 @for $i from 1 to $width_total {
 	.height-#{$i}{
-		height: 1px*$i;
+		height: 1px*$i !important;
 	}	
 }
 

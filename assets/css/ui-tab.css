@@ -1,0 +1,10 @@
+.ui-tab .ui-wrap_tabs { position: relative; }
+.ui-tab .ui-wrap_tabs:after { content: ""; display: block; clear: both; overflow: hidden; }
+.ui-tab .ui-wrap_tabs:before { content: ""; display: block; position: absolute; bottom: 0; left: 0; width: 100%; height: 1px; background: #ddd; }
+.ui-tab a { display: inline-block; float: left; text-align: center; border: 1px solid #ddd; height: 35px; line-height: 35px; width: 75px; }
+.ui-tab a + a { margin-left: 5px; }
+.ui-tab a.active { position: relative; z-index: 10; background-color: #3c8dbc; color: #fff; border-color: #3c8dbc; }
+
+.ui-tab_vertical .ui-wrap_tabs:before { display: none; }
+.ui-tab_vertical a { float: none; display: block; }
+.ui-tab_vertical a + a { margin-left: 0; margin-top: 5px; }
