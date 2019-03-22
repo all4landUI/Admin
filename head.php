@@ -12,14 +12,9 @@
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/common.css">
   <link rel="stylesheet" href="assets/css/helper.css">
-<<<<<<< HEAD
   <link rel="stylesheet" href="assets/css/css/ui.css">
-  <link rel="stylesheet" href="assets/css/ui.css">
-=======
   <!-- 스타일 : 컴포넌트 -->
   <link rel="stylesheet" href="assets/css/ui-tab.css">
-
->>>>>>> f12b723e100a6c7308124525d1ca538b0843121d
   <!-- 기본 스크립트 -->
   <script src="assets/js/jquery-1.12.4.min.js"></script>
   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
