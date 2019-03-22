@@ -15,15 +15,14 @@
 			<p>열을 사용하여 기본 모든 레이아웃을 만듭니다.</p>
 			<div class="demo-block demo-layout">
 				<div class="source">
-					<div class="ui-row">
-						<div class="ui-col-12">
-							data-grid=12
-						</div>
-					</div>
+
 					<div class="ui-row">
 						<div class="ui-col-12">
 							ui-col-12
-						</div>
+						</div>						
+					</div>
+
+					<div class="ui-row">
 						<div class="ui-col-2">
 							ui-col-2
 						</div>
@@ -37,7 +36,7 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						<code>class=*</code> 1~12 사용
+						<code>class=ui-col-</code> 1~12 사용
 					</div>
 					
 					<div class="highlight">

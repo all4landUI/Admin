@@ -92,18 +92,7 @@ body { overflow-y: hidden; }
 .demo-block .demo-control:after { font-size: 16px; line-height: 44px; content: "\f0d7"; }
 
 /* 데모 페이지 디자인: demo-layout; */
-.demo-layout .ui-col-1 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-2 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-3 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-4 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-5 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-6 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-7 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-8 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-9 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-10 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-11 { background-color: #d3dce6; padding: 10px; }
-.demo-layout .ui-col-12 { background-color: #d3dce6; padding: 10px; }
+.demo-layout [class^=ui-col] { background-color: #d3dce6; padding: 10px; color: #888; text-align: center; border: 1px solid rgba(86, 61, 124, 0.2); }
 .demo-layout .ui-row + .ui-row { margin-top: 10px; }
 
 /* Components : grid , layer; */

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import "../import/import";
+
+.ui-table{
+	border-top:1px solid #ddd;
+	table{
+		caption{
+			position:absolute;
+			left:-9999em;
+		}
+		width:100%;
+		th,
+		td{
+			padding:7px 0;
+			border-bottom:1px solid #ddd;
+		}
+		td{
+			padding-left:10px;
+			padding-right:10px;
+		}
+		thead{
+			background-color:#f8f8f8;
+		}
+		tbody{
+			tr{
+				&.center{
+					td{
+						text-align:center;
+					}
+				}
+				td:first-child{
+					border-left:0;
+				}
+			}
+			td{
+				border-left:1px solid #ddd;
+			}
+		}
+	}
+
+	&.table-vertical{
+		th{
+			background-color:#f8f8f8;
+			text-align:left;
+			
+		}
+		th,td{
+			padding:10px;
+		}
+	}
+}
