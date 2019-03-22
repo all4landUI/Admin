@@ -55,6 +55,7 @@
 			<ul data-menu="side">
 				<li><a href="guide.php">Guide</a></li>
 				<li><a href="document.php">Document</a></li>
+        <li><a href="grid.php">Grid</a></li>
         <li><a href="tabs.php">Tabs</a></li>
 			</ul>
 		</div>

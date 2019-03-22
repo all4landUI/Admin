@@ -46,7 +46,7 @@
 							<a href="#" class="active" role="button">탭1</a>
 							<a href="#" role="button">탭2</a>
 							<a href="#" role="button">탭3</a>
-							<a href="#" role="button">탭2</a>
+							<a href="#" role="button">탭4</a>
 						</div>
 					</nav>
 				</div>

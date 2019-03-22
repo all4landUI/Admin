@@ -191,7 +191,7 @@ body{
  .demo-layout{
  	$total : 13;
 	@for $i from 1 to $total {
-		.ui-col_#{$i}{
+		.ui-col-#{$i}{
 		  background-color:#d3dce6;
  		  padding:10px;
 		}	
@@ -213,7 +213,7 @@ body{
 		clear:both;
 	}
 }
-.ui-col{
+[class^=ui-col]{
 	float:left;
 }
 $total : 13;
