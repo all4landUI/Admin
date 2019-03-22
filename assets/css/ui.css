@@ -1,0 +1,24 @@
+/* button element */
+.ui-btn_wrap { margin: 15px 0 10px; }
+.ui-btn_wrap:after { display: block; content: ''; clear: both; }
+
+.ui-btn { display: inline-block; padding: 6px 8px; margin: 2px; text-align: center; white-space: nowrap; vertical-align: middle; border: 1px solid #ccc; background-image: none; border-radius: 4px; }
+.ui-btn:hover { background: #dedede; color: #666; }
+
+.ui-btn_center { text-align: center; }
+
+.ui-btn_left { text-align: left; }
+
+.ui-btn_right { text-align: right; }
+
+.ui-btn_group { overflow: hidden; margin: auto; }
+.ui-btn_group .ui-btn { float: left; border-radius: 4px; margin: 0px; }
+.ui-btn_group .ui-btn:first-child:not(:last-child) { border-top-right-radius: 0; border-bottom-right-radius: 0; margin-left: 0px; }
+.ui-btn_group .ui-btn:not(:first-child) { margin-left: -1px; }
+.ui-btn_group .ui-btn:not(:first-child):not(:last-child) { border-radius: 0; }
+.ui-btn_group .ui-btn:last-child:not(:first-child) { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+.ui-btn_group:after { display: block; content: ''; clear: both; }
+
+/* button element */
+
+/*# sourceMappingURL=ui.css.map */
