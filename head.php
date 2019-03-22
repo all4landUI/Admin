@@ -18,11 +18,9 @@
   <!-- 기본 스크립트 -->
   <script src="assets/js/jquery-1.12.4.min.js"></script>
   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-
   <script src="assets/components/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
   <script src="assets/components/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
   <script src="assets/components/OwlCarousel2/dist/owl.carousel.min.js"></script>
-
   <!-- 코드 highlight -->
   <link rel="stylesheet" href="assets/components/prism/prism.css">
   <script src="assets/components/prism/prism.js"></script>

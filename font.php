@@ -14,23 +14,66 @@
 
 		<!-- .content -->
 		<div data-content="content">
-
-			<h3>Noto Sans Fonts</h3>
-			<p>Noto Sans</p>
-			<div class="demo-block">
-				<div class="source">
-
-				</div>
-				<div class="meta">
-					<div class="description">
-
-					</div>
-
-					<div class="highlight">
+			<!-- NanumGothic -->
+			<div class="NanumGothic_wrap">
+				<h3>NanumGothic Fonts</h3>
+				<p>나눔고딕</p>
+				<div class="demo-block">
+					<div class="source">
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
 					</div>
 				</div>
-				<div class="demo-control fa"></div>
 			</div>
+			<!-- NanumGothic -->
+
+			<!-- NanumBarunGothic -->
+			<div class="NanumBarunGothic_wrap">
+				<h3>NanumBarunGothic Fonts</h3>
+				<p>나눔바른고딕</p>
+				<div class="demo-block">
+					<div class="source">
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					</div>
+				</div>
+			</div>
+			<!-- NanumBarunGothic -->
+
+			<!-- NanumSquare -->
+			<div class="NanumSquare_wrap">
+				<h3>NanumSquare Fonts</h3>
+				<p>나눔스퀘어</p>
+				<div class="demo-block">
+					<div class="source">
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					</div>
+				</div>
+			</div>
+			<!-- NanumSquare -->
+
+			<!-- Noto Sans -->
+			<div class="Noto_wrap"> 
+				<h3>Noto Sans Fonts</h3>
+				<p>Noto Sans</p>
+				<div class="demo-block">
+					<div class="source">
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					</div>
+				</div>
+			</div>
+			<!-- Noto Sans -->
+
 		</div>
 		<!-- .content -->
 	</section>

@@ -37,9 +37,9 @@
 .ui-radio.ui-radio_small input[type="radio"] + label:before { top: -2px; width: 17px; height: 17px; }
 .ui-radio.ui-radio_small input[type="radio"]:checked + label:after { top: 3px; width: 9px; height: 9px; }
 
-.ui-radio .ui-radio_disabled input[type="radio"]:disabled, .ui-radio .ui-radio_disabled label:disabled { cursor: not-allowed; color: #c0c4cc; }
+.ui-radio .ui-radio_disabled input, .ui-radio .ui-radio_disabled label { color: #c0c4cc; }
 
-.ui-radio .ui-radio_button { padding: 10px; border: 1px solid #dedede; }
+.ui-radio .ui-radio_button { padding: 10px; border: 1px solid #dedede; border-radius: 4px; }
 
 .ui-radio .ui-radio_button.active { border: 1px solid #000; }
 

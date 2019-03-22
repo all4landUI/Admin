@@ -162,15 +162,20 @@
 	}
 }
 .ui-radio .ui-radio_disabled{
+	input,
+	label{
+		color: #c0c4cc;
+		
+	}
 	input[type="radio"]:disabled,
 	label:disabled{
-		cursor: not-allowed;
-		color: #c0c4cc;	
+	
 	}
 }
 .ui-radio .ui-radio_button{
 	padding: 10px;
 	border: 1px solid #dedede;
+	border-radius:4px;
 }
 .ui-radio .ui-radio_button.active{
 	border: 1px solid #000;
