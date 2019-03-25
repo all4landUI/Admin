@@ -215,7 +215,7 @@
 						<div class="margin-top-5 margin-bottom-5">
 							<input type="radio" id="ex_ks03" name="ex_ksw"> 
 							<label for="ex_ks03">ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND</label> 
-						<div>
+						</div> 
 						<div class="margin-top-5 margin-bottom-5">
 							<input type="radio" id="ex_ks04" name="ex_ksw"> 
 							<label for="ex_ks04">ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LANDALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND</label> 

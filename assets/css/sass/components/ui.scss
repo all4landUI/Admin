@@ -165,11 +165,10 @@
 	input,
 	label{
 		color: #c0c4cc;
-		
+		cursor: not-allowed;
 	}
-	input[type="radio"]:disabled,
-	label:disabled{
-	
+	input[type="radio"]:disabled,{
+		cursor: not-allowed;
 	}
 }
 .ui-radio .ui-radio_button{
