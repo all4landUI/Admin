@@ -191,11 +191,13 @@ body{
  .demo-layout{
  	
  	[class^=ui-col]{
-		background-color:#d3dce6;
-		padding:10px;
-		color:#888;
-		text-align:center;
-		border: 1px solid rgba(86,61,124,.2);
+ 		div{
+			background-color:#d3dce6;
+			padding:10px;
+			color:#888;
+			text-align:center;
+			border: 1px solid rgba(86,61,124,.2);
+ 		}
  	}
 
  	.ui-row{
@@ -214,8 +216,20 @@ body{
 		display:block;
 		clear:both;
 	}
+	&.gutter-10{
+		margin:0 -5px;
+		[class*=ui-col]{
+			padding:0 5px;
+		}		
+	}
+	&.gutter-20{
+		margin:0 -10px;
+		[class*=ui-col]{
+			padding:0 10px;
+		}		
+	}
 }
-[class^=ui-col]{
+[class*=ui-col]{
 	float:left;
 }
 $total : 13;
