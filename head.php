@@ -53,6 +53,7 @@
 	<aside id="brand_sidebar">
 		<div class="sidebar">
 			<ul data-menu="side">
+
         <li><a href="#">Demo</a>
           <div class="depth-menu">
             <ul>
@@ -63,15 +64,16 @@
         <li><a href="#">Components</a>
           <div class="depth-menu">
             <ul>
-              <li><a href="/admin/document.php">document</a></li>
+              <li><a href="/admin/document.php">Document</a></li>
               <li><a href="/admin/grid.php">Grid</a></li>
               <li><a href="/admin/tabs.php">Tabs</a></li>
               <li><a href="/admin/radio.php">Radio</a></li>
-              <li><a href="/admin/select.php">select</a></li>
+              <li><a href="/admin/select.php">Select</a></li>
+              <li><a href="checkbox.php">Checkbox</a></li>
               <li><a href="/admin/tabs.php">Tabs</a></li>
               <li><a href="/admin/table.php">Table</a></li>
               <li><a href="/admin/font.php">Font</a></li>
-              <li><a href="/admin/button.php">button</a></li>
+              <li><a href="/admin/button.php">Button</a></li>
             </ul>
           </div>
         </li>
