@@ -18,7 +18,6 @@
 			<p>Checkbox default</p>
 			<div class="demo-block">
 				<div class="source">
-
 					<div class="ui-checks_wrap">
 						<span class="ui-checks">
 							<input type="Checkbox" id="ex_rd01" > 
@@ -39,6 +38,28 @@
 						<span class="ui-checks">
 							<input type="Checkbox" id="ex_rd05"> 
 							<label for="ex_rd05">Checkbox05</label> 
+						</span>
+					</div>
+					<div class="ui-checks_wrap">
+						<span class="ui-checks ui-checks_disabled">
+							<input type="Checkbox" disabled="disabled" id="ex_rd1" > 
+							<label for="ex_rd1">Checkbox01</label>
+						</span>
+						<span class="ui-checks ui-checks_disabled">
+							<input type="Checkbox" disabled="disabled" id="ex_rd2"> 
+							<label for="ex_rd2">Checkbox02</label> 
+						</span>
+						<span class="ui-checks ui-checks_disabled">
+							<input type="Checkbox" disabled="disabled" id="ex_rd3"> 
+							<label for="ex_rd3">Checkbox03</label> 
+						</span>
+						<span class="ui-checks ui-checks_disabled">
+							<input type="Checkbox" disabled="disabled" id="ex_rd4"> 
+							<label for="ex_rd4">Checkbox04</label> 
+						</span>
+						<span class="ui-checks ui-checks_disabled">
+							<input type="Checkbox" disabled="disabled" id="ex_rd5"> 
+							<label for="ex_rd5">Checkbox05</label> 
 						</span>
 					</div>
 				</div>
@@ -64,6 +85,18 @@
 						<span class="ui-checks small">
 							<input type="Checkbox" id="ex_rds02"> 
 							<label for="ex_rds02">Checkbox02</label>
+						</span>
+						<span class="ui-checks small">
+							<input type="Checkbox" id="ex_rds03"> 
+							<label for="ex_rds03">Checkbox02</label>
+						</span>
+						<span class="ui-checks small">
+							<input type="Checkbox" id="ex_rds04"> 
+							<label for="ex_rds04">Checkbox02</label>
+						</span>
+						<span class="ui-checks small">
+							<input type="Checkbox" id="ex_rds05"> 
+							<label for="ex_rds05">Checkbox02</label>
 						</span>
 					</div>
 				</div>
