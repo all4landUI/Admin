@@ -5,11 +5,11 @@
 ** helper style 관리
 **
 **/
-.ta-l { text-align: left; }
+.ta-l { text-align: left !important; }
 
-.ta-c { text-align: center; }
+.ta-c { text-align: center !important; }
 
-.ta-r { text-align: right; }
+.ta-r { text-align: right !important; }
 
 /* total 변경시 max 변경 가능 */
 .margin-1 { margin: 1px; }

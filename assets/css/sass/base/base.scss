@@ -17,7 +17,7 @@ input[type='text'],input[type='password'],input[type='submit'],input[type='searc
 input:checked[type='checkbox'] {background-color:#666; -webkit-appearance:checkbox}
 button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button; border-radius:0}
 input[type='search']::-webkit-search-cancel-button {-webkit-appearance:none}
-body {background:#fff;font-family:$font;color:#000;font-size:1rem;font-weight:400;line-height:1.2;}
+body,th,td,input,select,textarea,button {background:#fff;font-family:$font;color:#000;font-size:1rem;font-weight:400;line-height:1.2;}
 a {color:#333;text-decoration:none}
 a:active, a:hover {text-decoration:none}
 address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
@@ -206,6 +206,20 @@ body{
  		}
  	}
  }
+
+.margin-top-0{
+	margin-top:0 !important;
+}
+
+.demo-font-awesome ul {padding:0 0 10px 10px;border:1px solid #ddd;}
+.demo-font-awesome ul:after{content:"";display:block;clear:both;}
+.demo-font-awesome ul li{float:left;width:16.666%;height:87px;border-left:1px solid #ddd;border-bottom:1px solid #ddd;font-size:20px;text-align:center;vertical-align:middle;margin-top:-1px;}
+.demo-font-awesome ul li:hover{
+	transition:all 0.15s ease-in;
+	color:$brand_c1;
+}
+.demo-font-awesome ul li i{display:block;font-size:32px;padding-top:15px;}
+.ico-name{font-size:12px;height:1em;}
  
  /*
   *  Components : grid , layer;
@@ -314,6 +328,7 @@ $total : 13;
 .mCSB_inside > .mCSB_container{margin-right:0;}
 [data-menu="side"]{
 	>li{
+		margin-top:15px;
 		font-size:1.23em;
 		>strong{
 			display:block;
@@ -337,37 +352,34 @@ $total : 13;
 			>.depth-menu{}
 		}
 		>a{
-			display:block;
-			position:relative;
-			font-size: 12px;
-		    color: #999;
-		    line-height: 26px;
-		    margin-top: 15px;
+			font-size: 16px;
+		    color: #333;
+		    line-height: 40px;
+		    height: 40px;
+		    margin: 0;
+		    padding: 0;
+		    text-decoration: none;
+		    display: block;
+		    position: relative;
+		    transition: .15s ease-out;
+		    font-weight: 700;
 		    padding-left:20px;
 		}
 		&.depth-view{
-			>a:after{
-				content:"\f067";
-			}
-			&.active,
-			&.menu-open{
-				>a:after{
-					transform: rotate(-180deg);
-					opacity:1;
-					content:"\f068";
-				}	
-			}
+			
 		}
 		.depth-menu{ /* 1차뎁스메뉴 */
-			display:none;
-			padding-left:10px;
-			>li{
-				>a{
-					display:block;
-					color:#fff;
-					padding:12px 5px 12px 15px;
-					font-size:14px;
-				}
+			a{
+				display: block;
+			    height: 40px;
+			    color: #444;
+			    line-height: 40px;
+			    font-size: 14px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-weight: 400;
+			    padding-left:20px;
 			}
 		}
 	}
