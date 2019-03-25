@@ -128,23 +128,23 @@
 
 
 					<div class="ui-radio ui-radio_small">
-						<span class="ui-radio_button">
+						<span class="ui-radio_button margin-5">
 							<input type="radio" id="ex_asrd01" name="ex02_srd"> 
 							<label for="ex_asrd01">Radio01</label> 	
 						</span>
-						<span class="ui-radio_button">
+						<span class="ui-radio_button margin-5">
 							<input type="radio" id="ex_asrd02" name="ex02_srd"> 
 							<label for="ex_asrd02">Radio02</label> 
 						</span>	
-						<span class="ui-radio_button">
+						<span class="ui-radio_button margin-5">
 							<input type="radio" id="ex_asrd03" name="ex02_srd"> 
 							<label for="ex_asrd03">Radio03</label> 
 						</span>
-						<span class="ui-radio_button">
+						<span class="ui-radio_button margin-5">
 							<input type="radio" id="ex_asrd04" name="ex02_srd"> 
 							<label for="ex_asrd04">Radio04</label> 
 						</span>
-						<span class="ui-radio_button">
+						<span class="ui-radio_button margin-5">
 							<input type="radio" id="ex_asrd05" name="ex02_srd"> 
 							<label for="ex_asrd05">Radio05</label> 
 						</span>
