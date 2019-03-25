@@ -162,20 +162,6 @@
 						</span>
 					</div>
 				</div>
-				<script>
-					$(document).ready(function(){
-						var radiodBtn = $(".ui-radio_button");
-
-						radiodBtn.on("click" , function(){
-							if(radiodBtn.find("strong")){
-								$(this).parent().removeClass("active");
-							
-								$(this).parent().addClass("active");
-							}
-						});
-					})
-				</script>				
-
 				<div class="meta">
 					<div class="description">
 						radio type01
