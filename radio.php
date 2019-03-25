@@ -95,14 +95,36 @@
 					</div>
 							
 					<div class="highlight">
+<pre><code class="language-html"><p>&lt;div class="ui-radio_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;span class="ui-radio"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;input type="radio" id="ex_rd01" name="ex_rd"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;label type="button" for="ex_rd01"&gt;Radio01&lt;/label&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;/span&gt;<span style="white-space:pre"></span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+<p>&lt;div class="ui-radio_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;span class="ui-radio ui-radio_small"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;input type="radio" id="ex_srd01" name="ex_srd"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;label type="button" for="ex_srd01"&gt;Radio01&lt;/label&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;/span&gt;<span style="white-space:pre"></span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+<p>&lt;div class="ui-radio_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;span class="ui-radio ui-radio_small ui-radio_disabled"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;input type="radio"  disabled="disabled" id="e_srd01" name="ex_srd00"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;label type="button" for="e_srd01"&gt;Radio01&lt;/label&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;/span&gt;<span style="white-space:pre"></span></p>
+<p>&lt;/div&gt;</p>
+
+</code></pre>						
 					</div>
 				</div>
 				<div class="demo-control fa"></div>
 			</div>
 
 
-			<h3>Radio button type01</h3>
-			<p>Radio button type01</p>
+			<h3>Radio button type</h3>
+			<p>Radio button type</p>
 			<div class="demo-block">
 				<div class="source">
 					<div class="ui-radio_wrap">
@@ -164,7 +186,7 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						radio type01
+						radio button type
 					</div>
 							
 					<div class="highlight">
@@ -174,8 +196,8 @@
 			</div>
 			
 
-			<h3>Radio button type02</h3>
-			<p>Radio button type02</p>
+			<h3>Radio block type</h3>
+			<p>Radio block type</p>
 			<div class="demo-block">
 				<div class="source">
 					<div class="ui-radio_wrap">
@@ -249,7 +271,7 @@
 
 				<div class="meta">
 					<div class="description">
-						radio type02
+						radio type
 					</div>
 							
 					<div class="highlight">

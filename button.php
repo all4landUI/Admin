@@ -46,6 +46,32 @@
 					</div>
 							
 					<div class="highlight">
+<pre><code class="language-html"><p>&lt;div class="ui-btn_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-btn_center"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="submit" class="ui-btn"&gt;확인&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;취소&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;수정&lt;/button&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre">						</span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+<p>&lt;div class="ui-btn_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-btn_right"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="submit" class="ui-btn"&gt;확인&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;취소&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;수정&lt;/button&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre">						</span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+<p>&lt;div class="ui-btn_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-btn_left"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="submit" class="ui-btn"&gt;확인&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;취소&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;수정&lt;/button&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre">						</span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+
+</code></pre>
 					</div>
 				</div>
 				<div class="demo-control fa"></div>
@@ -88,10 +114,42 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						버튼 우측 정렬
+						그룹형 버튼
 					</div>
 							
 					<div class="highlight">
+<pre><code class="language-html"><p>&lt;div class="ui-btn_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-btn_center"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;div class="ui-btn_group"&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="submit" class="ui-btn"&gt;확인&lt;/button&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="button" class="ui-btn"&gt;취소&lt;/button&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="button" class="ui-btn"&gt;수정&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;/div&gt;<span style="white-space:pre">		
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+<p>&lt;div class="ui-btn_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-btn_right"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;div class="ui-btn_group"&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="submit" class="ui-btn"&gt;확인&lt;/button&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="button" class="ui-btn"&gt;취소&lt;/button&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="button" class="ui-btn"&gt;수정&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;/div&gt;<span style="white-space:pre">		
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+<p>&lt;div class="ui-btn_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-btn_left"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;div class="ui-btn_group"&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="submit" class="ui-btn"&gt;확인&lt;/button&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="button" class="ui-btn"&gt;취소&lt;/button&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="button" class="ui-btn"&gt;수정&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;/div&gt;<span style="white-space:pre">		
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+
+</code></pre>
 					</div>
 				</div>
 				<div class="demo-control fa"></div>
@@ -172,10 +230,55 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						버튼 좌측 정렬
+						플렉스형 버튼
 					</div>
 							
 					<div class="highlight">
+<pre><code class="language-html"><p>&lt;div class="ui-btn_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-4 ui-btn_left"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="submit" class="ui-btn"&gt;prev&lt;/button&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-4 ui-btn_center"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;middle&lt;/button&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-4 ui-btn_right"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;next&lt;/button&gt;</p>	
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+<p>&lt;div class="ui-btn_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-6 ui-btn_left"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;div class="ui-col-6 ui-btn_group"&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="submit" class="ui-btn"&gt;확인&lt;/button&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="button" class="ui-btn"&gt;취소&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-6 ui-btn_right"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;div class="ui-col-6 ui-btn_group"&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="submit" class="ui-btn"&gt;확인&lt;/button&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="button" class="ui-btn"&gt;취소&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+<p>&lt;div class="ui-btn_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-6 ui-btn_left"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;div class="ui-col-6"&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="submit" class="ui-btn"&gt;prev&lt;/button&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="button" class="ui-btn"&gt;next&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-6 ui-btn_right"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;div class="ui-col-6"&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="submit" class="ui-btn"&gt;prev&lt;/button&gt;</p>
+<p><span style="white-space:pre">			</span>&lt;button type="button" class="ui-btn"&gt;next&lt;/button&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+
+
+</code></pre>
 					</div>
 				</div>
 				<div class="demo-control fa"></div>
@@ -251,10 +354,32 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						버튼 중앙 정렬
+						그리드형 버튼 
 					</div>
 							
 					<div class="highlight">
+<pre><code class="language-html"><p>&lt;div class="ui-btn_wrap"&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-2 ui-btn_center"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="submit" class="ui-btn"&gt;button&lt;/button&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-2 ui-btn_center"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;button&lt;/button&gt;</p>
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-2 ui-btn_center"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;button&lt;/button&gt;</p>	
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-2 ui-btn_center"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;button&lt;/button&gt;</p>	
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-2 ui-btn_center"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;button&lt;/button&gt;</p>	
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p><span style="white-space:pre">	</span>&lt;div class="ui-col-2 ui-btn_center"&gt;</p>
+<p><span style="white-space:pre">		</span>&lt;button type="button" class="ui-btn"&gt;button&lt;/button&gt;</p>	
+<p><span style="white-space:pre">	</span>&lt;/div&gt;<span style="white-space:pre"></span></p>
+<p>&lt;/div&gt;</p>
+<p><br /></p>
+</code></pre>
 					</div>
 				</div>
 				<div class="demo-control fa"></div>

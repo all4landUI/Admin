@@ -78,23 +78,23 @@
 			<div class="demo-block">
 				<div class="source">
 					<div class="ui-checks_wrap">
-						<span class="ui-checks small">
+						<span class="ui-checks ui-checks_small">
 							<input type="Checkbox" id="ex_rds01"> 
 							<label for="ex_rds01">Checkbox01</label>
 						<span>
-						<span class="ui-checks small">
+						<span class="ui-checks ui-checks_small">
 							<input type="Checkbox" id="ex_rds02"> 
 							<label for="ex_rds02">Checkbox02</label>
 						</span>
-						<span class="ui-checks small">
+						<span class="ui-checks ui-checks_small">
 							<input type="Checkbox" id="ex_rds03"> 
 							<label for="ex_rds03">Checkbox02</label>
 						</span>
-						<span class="ui-checks small">
+						<span class="ui-checks ui-checks_small">
 							<input type="Checkbox" id="ex_rds04"> 
 							<label for="ex_rds04">Checkbox02</label>
 						</span>
-						<span class="ui-checks small">
+						<span class="ui-checks ui-checks_small">
 							<input type="Checkbox" id="ex_rds05"> 
 							<label for="ex_rds05">Checkbox02</label>
 						</span>
@@ -141,31 +141,31 @@
 				<div class="source">
 					<div class="ui-checks_wrap">
 						<div class="margin-top-5 margin-bottom-5">
-							<span class="ui-checks etrans small">
+							<span class="ui-checks etrans ui-checks_small">
 								<input type="Checkbox" id="ex_rde03" > 
 								<label for="ex_rde03">ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND</label>
 							</span>
 						</div>
 						<div class="margin-top-5 margin-bottom-5">
-							<span class="ui-checks etrans small">
+							<span class="ui-checks etrans ui-checks_small">
 								<input type="Checkbox" id="ex_rde04"> 
 								<label for="ex_rde04">ALL for LAND</label>
 							</span>
 						</div>
 						<div class="margin-top-5 margin-bottom-5">
-							<span class="ui-checks etrans small">
+							<span class="ui-checks etrans ui-checks_small">
 								<input type="Checkbox" id="ex_rde05"> 
 								<label for="ex_rde05">ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND </label>
 							</span>
 						</div>
 						<div class="margin-top-5 margin-bottom-5">
-							<span class="ui-checks etrans small">
+							<span class="ui-checks etrans ui-checks_small">
 								<input type="Checkbox" id="ex_rde06"> 
 								<label for="ex_rde06">ALL for LAND ALL for LAND ALL for LAND ALL for LAND</label>
 							</span>
 						</div>
 						<div class="margin-top-5 margin-bottom-5">
-							<span class="ui-checks etrans small">
+							<span class="ui-checks etrans ui-checks_small">
 								<input type="Checkbox" id="ex_rde07"> 
 								<label for="ex_rde07">ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND ALL for LAND</label>
 							</span>

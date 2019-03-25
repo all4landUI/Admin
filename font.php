@@ -11,14 +11,13 @@
 			그렇기때문에 UI팀에서는 로컬서버를 지향하며 로컬서버 위주의 폰트 설정을 기준점으로 삼겠습니다.
 			</p>
 		</header>
-
+	
 		<!-- .content -->
 		<div data-content="content">
 			<!-- NanumGothic -->
-			<div class="NanumGothic_wrap">
 				<h3>NanumGothic Fonts</h3>
 				<p>나눔고딕</p>
-				<div class="demo-block">
+				<div class="demo-block NanumGothic_wrap">
 					<div class="source">
 						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
 						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
@@ -26,50 +25,44 @@
 						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
 					</div>
 				</div>
-			</div>
+		
 			<!-- NanumGothic -->
 
 			<!-- NanumBarunGothic -->
-			<div class="NanumBarunGothic_wrap">
-				<h3>NanumBarunGothic Fonts</h3>
-				<p>나눔바른고딕</p>
-				<div class="demo-block">
-					<div class="source">
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-					</div>
+			<h3>NanumBarunGothic Fonts</h3>
+			<p>나눔바른고딕</p>
+			<div class="demo-block NanumBarunGothic_wrap">
+				<div class="source">
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
 				</div>
 			</div>
 			<!-- NanumBarunGothic -->
 
 			<!-- NanumSquare -->
-			<div class="NanumSquare_wrap">
-				<h3>NanumSquare Fonts</h3>
-				<p>나눔스퀘어</p>
-				<div class="demo-block">
-					<div class="source">
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-					</div>
+			<h3>NanumSquare Fonts</h3>
+			<p>나눔스퀘어</p>
+			<div class="demo-block ">
+				<div class="source NanumSquare_wrap">
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
 				</div>
 			</div>
 			<!-- NanumSquare -->
 
 			<!-- Noto Sans -->
-			<div class="Noto_wrap"> 
-				<h3>Noto Sans Fonts</h3>
-				<p>Noto Sans</p>
-				<div class="demo-block">
-					<div class="source">
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-						<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
-					</div>
+			<h3>Noto Sans Fonts</h3>
+			<p>Noto Sans</p>
+			<div class="demo-block">
+				<div class="source Noto_wrap">
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
+					<div>올포랜드 ALLforLAND - <span>font-weight:700</span></div>
 				</div>
 			</div>
 			<!-- Noto Sans -->
