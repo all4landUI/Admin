@@ -39,7 +39,7 @@
 
 .ui-radio .ui-radio_disabled input, .ui-radio .ui-radio_disabled label { color: #c0c4cc; }
 
-.ui-radio .ui-radio_button { padding: 10px; border: 1px solid #dedede; border-radius: 4px; }
+.ui-radio .ui-radio_button { display: inline-block; padding: 10px; border: 1px solid #dedede; border-radius: 4px; }
 
 .ui-radio .ui-radio_button.active { border: 1px solid #000; }
 
